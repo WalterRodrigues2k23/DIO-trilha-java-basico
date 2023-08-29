@@ -7,6 +7,8 @@ O projeto deve conter os seguintes itens:
 
 - [ ] A pessoa cliente deverá inserir como deverá ser chamado(a);
 
+- [ ] A pessoa deverá inserir somente um sobrenome;
+
 - [ ] A pessoa cliente deverá inserir o número da Agência;
 
 - [ ] A pessoa cliente deverá inserir o número da conta;
