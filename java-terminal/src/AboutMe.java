@@ -24,3 +24,4 @@ public class AboutMe {
         System.out.println("Minha altura é " + altura + " cm.");
     }
 }
+
