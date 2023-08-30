@@ -5,15 +5,15 @@ ______________
 
 O projeto deve conter os seguintes itens: 
 
-- [ ] A pessoa deverá inserir como deverá ser chamado(a);
+- [x] A pessoa deverá inserir como deverá ser chamado(a);
 
-- [ ] A pessoa deverá inserir somente um sobrenome;
+- [x] A pessoa deverá inserir somente um sobrenome;
 
-- [ ] A pessoa deverá inserir o número da Agência;
+- [x] A pessoa deverá inserir o número da Agência;
 
-- [ ] A pessoa deverá inserir o número da conta;
+- [x] A pessoa deverá inserir o número da conta;
 
-- [ ] A pessoa deverá inserir o saldo que irá depositar na conta recém criada.
+- [x] A pessoa deverá inserir o saldo que irá depositar na conta recém criada.
 ___
 O programa irá instruir a pessoa em cada passo como na forma abaixo.
 
