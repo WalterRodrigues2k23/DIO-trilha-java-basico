@@ -1,18 +1,19 @@
-## Getting Started
+## Projeto Contador - Bootcamp Santander & DIO 2023 (Backend com Java)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+O projeto é criar um sistema que receberá dois números inteiros inseridos pelo usuário, obter a diferença do segundo número inserido com o primeiro e imprimir esses números conforme o texto: <i>"Imprimindo o número 1" / "Imprimindo o número 2"</i> e assim por diante até finalizar a diferença.
 
-## Folder Structure
+## Estrutura do projeto
 
-The workspace contains two folders by default, where:
+O projeto deverá ser estruturado com os seguintes itens:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- A pessoa deverá inserir o primeiro `número inteiro`;
+- A pessoa deverá inserir o segundo `número inteiro`;
+- Criar um `método` para buscar esses números e subtrair o segundo `input` do primeiro `input`;
+- Realizar a `impressão` da quantidade de interações dessa diferença;
+- Deverá ser lançada uma `exceção` caso o primeiro número seja maior do que o segundo;
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+> Como bônus do projeto vou criar outra `exceção` para caso o usuário tente inserir alguma letra `(String)` ao invés de inserir apenas `números inteiros`.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Créditos
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Criado por Walter Rodrigues dos Santos Junior 2023. [LinkedIn](https://www.linkedin.com/in/walterrodriguesba/), [GitHub](https://github.com/WalterRodrigues2k23).
