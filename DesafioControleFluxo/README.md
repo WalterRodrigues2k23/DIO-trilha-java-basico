@@ -1,4 +1,4 @@
-## Projeto Contador - Bootcamp Santander & DIO 2023 (Backend com Java)
+## Projeto Controle de Fluxo - Bootcamp Santander & DIO 2023 (Backend com Java)
 
 O projeto é criar um sistema que receberá dois números inteiros inseridos pelo usuário, obter a diferença do segundo número inserido com o primeiro e imprimir esses números conforme o texto: <i>"Imprimindo o número 1" / "Imprimindo o número 2"</i> e assim por diante até finalizar a diferença.
 
