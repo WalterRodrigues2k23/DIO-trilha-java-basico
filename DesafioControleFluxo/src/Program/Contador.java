@@ -1,6 +1,7 @@
 package Program;
+
 import java.util.Scanner;
-import java.util.Locale;
+import Program.ParametrosInvalidosException;
 
 /**
 * <h1>Controle de Fluxo</h1>
@@ -19,19 +20,34 @@ public class Contador {
     /**
    * Este método é utilizado para receber dois números inteiros e imprimir a diferença
    * entre os dois números conforme as instruções
-   * @param numUm a pessoa deve inserir um número inteiro;
-   * @param numDois a pessoa deve inserir outro número inteiro maior do que o primeiro número inserido;
+   * @param ParametroUm a pessoa deve inserir um número inteiro;
+   * @param ParametroDois a pessoa deve inserir outro número inteiro maior do que o primeiro número inserido;
    */
     public static void main(String[] args) throws Exception {
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        
+            Scanner terminal = new Scanner(System.in);
+            System.out.println("Digite o primeiro número inteiro.");
+            int parametroUm = terminal.nextInt();
+            System.out.println("Digite o segundo número inteiro.");
+            int parametroDois = terminal.nextInt();
 
-        System.out.println("Digite o primeiro número inteiro.");
-        int numUm = scanner.nextInt();
-        System.out.println("Digite o segundo número inteiro.");
-        int numDois = scanner.nextInt();
+            System.out.println("");
+        try{    
+            contar(parametroUm, parametroDois);
+                        
+        }
+        catch (Exception e){
+            System.out.println("O segundo parâmetro deve ser maior do que o primeiro!");
+        }            
+    }     
+    static void contar(int parametroUm, int parametroDois){
+        if (parametroUm < parametroDois){
 
-        System.out.println("");
+        int contagem = parametroDois - parametroUm;
 
-        System.out.println("Hello, World!");
+        for (int x = parametroUm + 1; x < parametroDois; x++){
+            System.out.println("Imprimindo o número " + x);
+            }
+        }
     }
 }
