@@ -1,7 +1,8 @@
 package Program;
 
-public class ParametrosInvalidosException {
-    public static void main(String[] args) {
-        
+public class ParametrosInvalidosException extends Exception {
+    static String Erro() throws ParametrosInvalidosException{
+
+        throw new ParametrosInvalidosException();
     }
 }
