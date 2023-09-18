@@ -3,6 +3,13 @@ package set.Pesquisa;
 public class Contato {
     private String nome;
     private int numero;
+<<<<<<< HEAD
+=======
+    public Contato(String nome, int numero) {
+        this.nome = nome;
+        this.numero = numero;
+    }
+>>>>>>> 4535b599e7fdcc49a58a222a147863842293ba98
 
     public String getNome() {
         return nome;
@@ -12,9 +19,44 @@ public class Contato {
         return numero;
     }
 
+<<<<<<< HEAD
     @Override
     public String toString() {
         return "Contato [nome=" + nome + ", numero=" + numero + "]";
+=======
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    @Override
+    public String toString() {
+        return "{" + nome + "," + numero + "}";
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((nome == null) ? 0 : nome.hashCode());
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Contato other = (Contato) obj;
+        if (nome == null) {
+            if (other.nome != null)
+                return false;
+        } else if (!nome.equals(other.nome))
+            return false;
+        return true;
+>>>>>>> 4535b599e7fdcc49a58a222a147863842293ba98
     }
 
     
