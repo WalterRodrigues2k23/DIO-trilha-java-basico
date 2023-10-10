@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1faf8155-f9a7-4880-862d-b4983a53b853" name="Changes" comment="Criação do projeto Diagramação Iphone - Desafio POO.">
-      <change afterPath="$PROJECT_DIR$/src/ControleVolume.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fotos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Iphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ipod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Navegador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SMS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Telefone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="1faf8155-f9a7-4880-862d-b4983a53b853" name="Changes" comment="Criando classes e métodos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,11 +68,20 @@
       <option name="project" value="LOCAL" />
       <updated>1696857237265</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Criando classes e métodos">
+      <option name="closed" value="true" />
+      <created>1696946948955</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696946948955</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criação do projeto Diagramação Iphone - Desafio POO." />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação do projeto Diagramação Iphone - Desafio POO." />
+    <MESSAGE value="Criando classes e métodos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando classes e métodos" />
   </component>
 </project>
