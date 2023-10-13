@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1faf8155-f9a7-4880-862d-b4983a53b853" name="Changes" comment="Criando classes e métodos" />
+    <list default="true" id="1faf8155-f9a7-4880-862d-b4983a53b853" name="Changes" comment="Criando classes e métodos">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/READEME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/IControleVolume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Fotos/IFotos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Ipod/IIpod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Navegador/INavegador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Phone/IPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/SMS/ISMS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Telefone/Telefone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iphone.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/Iphone.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ControleVolume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ControleVolume.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Email.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fotos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Iphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Iphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ipod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Navegador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SMS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Telefone.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -34,11 +55,19 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2WWnAEovnnoIQnUU96Q0Tp1RA2R" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,10 +76,30 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Projetos/Java/DesafioDiagramacaoIphone/src/Main.java&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Controller" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Iphone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Iphone" />
+      <module name="DesafioDiagramacaoIphone" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Iphone" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696946948955</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Criando classes e métodos">
+      <option name="closed" value="true" />
+      <created>1696947318313</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696947318313</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
